@@ -3,3 +3,5 @@ yotta_targets
 yotta_modules
 .cache
 compile_commands.json
+.DS_Store
+*.o

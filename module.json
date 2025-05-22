@@ -7,5 +7,16 @@
     "microbit": "https://git.mob-dev.fr/Schoumi/microbit.git"
   },
   "targetDependencies": {},
-  "bin": "./source"
+  "bin": "./source",
+  "extraIncludes": [
+    "source/crypto/tinycrypt",
+    "source/crypto/tinycrypt/include",
+    "source/proto/cpe"
+  ],
+  "sources": [
+    "source/crypto/tinycrypt/aes_encrypt.c",
+    "source/crypto/tinycrypt/ctr_mode.c",
+    "source/crypto/tinycrypt/cmac_mode.c",
+    "source/crypto/tinycrypt/utils.c"
+  ]
 }
